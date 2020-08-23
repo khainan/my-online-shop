@@ -29,7 +29,7 @@ h1 {
   .logo-container img {
     height: 80px !important;
     width: 80px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 50%;
   }
   .MobileNav_MoNavLogo__C8_0h img {
@@ -37,5 +37,11 @@ h1 {
   }
   .styles_navLinks__38tON a {
     color: $broken-white;
+  }
+  .carousel {
+    img {
+      object-fit: cover;
+      height: 100vh;
+    }
   }
 }
