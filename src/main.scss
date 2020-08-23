@@ -26,16 +26,16 @@ h1 {
   min-height: 100vh;
   width: 100%;
   background-color: $light-brown;
-}
-.navbar {
-  height: 80px;
-  background: $dark-brown;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  position: fixed;
-  top: 0;
-}
-.title-text {
-  font-family: "Sacramento", cursive;
+  .logo-container img {
+    height: 80px !important;
+    width: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  .MobileNav_MoNavLogo__C8_0h img {
+    border-radius: 50%;
+  }
+  .styles_navLinks__38tON a {
+    color: $broken-white;
+  }
 }

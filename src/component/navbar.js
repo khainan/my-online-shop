@@ -5,35 +5,25 @@ import LogoTey from '../logo-tey.jpg'
 function Navbar() {
   return (
     <ReactNavbar
-      color="rgb(25, 25, 25)"
+      color="rgb(137, 112, 94)"
       logo={LogoTey}
       menu={[
         { name: "HOME", to: "/" },
-        { name: "ARTICLES", to: "/articles" },
+        { name: "PORTFOLIO", to: "/portfolio" },
         { name: "ABOUT ME", to: "/about" },
         { name: "CONTACT", to: "/contact" },
       ]}
       social={[
         {
           name: "Linkedin",
-          url: "https://www.linkedin.com/in/nazeh-taha/",
+          url: "https://www.linkedin.com/in/talia-yunita-76029a1a5/",
           icon: ["fab", "linkedin-in"],
         },
         {
-          name: "Facebook",
-          url: "https://www.facebook.com/nazeh200/",
-          icon: ["fab", "facebook-f"],
-        },
-        {
           name: "Instagram",
-          url: "https://www.instagram.com/nazeh_taha/",
+          url: "https://www.instagram.com/taliayunitas/",
           icon: ["fab", "instagram"],
-        },
-        {
-          name: "Twitter",
-          url: "http://nazehtaha.herokuapp.com/",
-          icon: ["fab", "twitter"],
-        },
+        }
       ]}
     />
   );
