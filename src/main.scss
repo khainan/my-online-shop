@@ -1,17 +1,41 @@
+$light-brown: #b9a586;
+$brown: #89705e;
+$dark-brown: #645857;
+$black: #363639;
+$broken-white: #eeebe3;
+
 body {
-    margin: 0; 
+  margin: 0;
+  color: $broken-white;
 }
 
 p {
-    font-family: 'Katibeh', cursive;
+  font-family: "Katibeh", cursive;
+  margin: 0;
 }
 
-h5, h4, h3, h2, h1 {
-    font-family: 'Cookie', cursive;
+h5,
+h4,
+h3,
+h2,
+h1 {
+  font-family: "Cookie", cursive;
 }
 
 .talia-portfolio-app {
-    .title-text {
-        font-family: 'Sacramento', cursive;
-    }
+  min-height: 100vh;
+  width: 100%;
+  background-color: $light-brown;
+}
+.navbar {
+  height: 80px;
+  background: $dark-brown;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.title-text {
+  font-family: "Sacramento", cursive;
 }
