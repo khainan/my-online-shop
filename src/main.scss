@@ -7,6 +7,7 @@ $broken-white: #eeebe3;
 body {
   margin: 0;
   color: $broken-white;
+  background-color: $light-brown;
 }
 
 p {
@@ -25,7 +26,6 @@ h1 {
 .talia-portfolio-app {
   min-height: 100vh;
   width: 100%;
-  background-color: $light-brown;
   .logo-container img {
     height: 80px !important;
     width: 80px;
