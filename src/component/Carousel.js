@@ -1,7 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import img1 from "../scenic-view-of-buildings-during-evening-1707213.jpg"
-import img2 from "../mercedes.jpg"
+import img1 from "../Portofolio Talia IMG/cover-hotel.PNG"
+import img2 from "../Portofolio Talia IMG/cover-GE.PNG"
+import img3 from "../Portofolio Talia IMG/cover-RS.JPG"
 
 function CarouselComponent() {
   return (
@@ -13,8 +14,8 @@ function CarouselComponent() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Project Hotel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,7 +26,19 @@ function CarouselComponent() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>GE Education</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={img3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Project RS</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>

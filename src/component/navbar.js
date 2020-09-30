@@ -5,8 +5,6 @@ import LogoTey from '../logo-tey.jpg'
 function Navbar() {
   return (
     <ReactNavbar
-      // color="rgb(137, 112, 94)"
-      color="rgb(25, 25, 25)"
       logo={LogoTey}
       menu={[
         { name: "HOME", to: "/" },
